@@ -7,7 +7,7 @@ Zaten Hali Hazırda Kodlar Vardır, Aşşağıdaki Kodları client luaya eklerse
 Citizen.CreateThread(function()
     while true do
         Citizen.Wait(3)
-        N_0x4757f00bc6323cfe(GetHashKey("--[[silah adı]]--"), 0.5)--hasar
+        N_0x4757f00bc6323cfe(GetHashKey("silah adı"), 0.5)--hasar
     end
 end)
 ```
