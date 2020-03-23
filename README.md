@@ -1,0 +1,2 @@
+# hasar
+Silah Hasar Scripti
