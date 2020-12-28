@@ -1,13 +1,6 @@
 # Developer : T3IM4N
-# Kullanım :
-
-Zaten Hali Hazırda Kodlar Vardır, Aşşağıdaki Kodları client luaya eklerseniz daha fazla silah hasarı düzenleyebilirsiniz
-
+# Kullanım ;
+Yeni hasar düzenlemek için, attaki kodu client'deki while ın içine yerleştirip çoğaltabilirsiniz.
 ```
-Citizen.CreateThread(function()
-    while true do
-        Citizen.Wait(3)
-        N_0x4757f00bc6323cfe(GetHashKey("silah adı"), 0.5)--hasar
-    end
-end)
+N_0x4757f00bc6323cfe(GetHashKey("WEAPON_PISTOL"), 0.5)--hasar
 ```
